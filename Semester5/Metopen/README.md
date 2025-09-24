@@ -7,7 +7,9 @@ LSSVR UNTUK PREDIKSI HARGA EMAS
 DENGAN FAKTOR EKSTERNAL
 
 Link Jurnal: 
-1. [Base Papper](https://link.springer.com/article/10.2991/ijcis.d.200214.002)
+1. [Using Market Sentiment Analysis and Genetic
+Algorithm-Based Least Squares Support Vector Regression
+to Predict Gold Prices](https://link.springer.com/article/10.2991/ijcis.d.200214.002)
 2. [Jurnal 1](https://www.mdpi.com/1911-8074/14/5/198)
 3. [Jurnal 2](https://ejournal.undip.ac.id/index.php/media_statistika/article/view/8291)
 4. [Jurnal 3](https://kuey.net/index.php/kuey/article/download/5928/4252/12107)
