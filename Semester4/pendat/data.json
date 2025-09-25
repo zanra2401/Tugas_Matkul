@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": ["Hai", "Hi", "Halo", "Apa Kabar", "Selamat Pagi", "Selamat Siang", "Selamat Malam", "Salam", "Ping", "P"],
+      "responses": ["Halo!", "Hai", "Halo, ada yang bisa saya bantu?", "Halo selamat datang", "Hai Kawan"]
+    },
+    {
+      "tag": "bye",
+      "patterns": ["Dadah", "Selamat Tinggal", "Dah", "Daah", "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye"],
+      "responses": ["Sampai jumpa lagi yaa", "Kalau ada masalah, hubungi aku lagi ya", "Semoga harimu menyenangkan!"]
+    },
+    {
+      "tag": "sakit_kepala",
+      "patterns": ["saya sakit kepala", "kepala saya sakit", "aku pusing", "sakit kepala banget", "aku merasa pusing"],
+      "responses": ["Cobalah istirahat dan minum air putih. Jika tidak membaik, sebaiknya konsultasi ke dokter."]
+    },
+    {
+      "tag": "demam",
+      "patterns": ["saya demam", "suhu tubuh saya tinggi", "saya menggigil", "saya merasa panas", "saya demam sejak kemarin"],
+      "responses": ["Perbanyak minum air putih dan istirahat ya. Bila suhu tinggi terus, segera periksa ke dokter."]
+    },
+    {
+      "tag": "batuk",
+      "patterns": ["saya batuk", "saya batuk terus", "tenggorokan gatal", "aku batuk berdahak", "batuk tidak berhenti"],
+      "responses": ["Coba minum air hangat atau madu. Jika batuk berlanjut lebih dari 3 hari, segera periksa."]
+    },
+    {
+      "tag": "mual_muntah",
+      "patterns": ["saya mual", "saya muntah", "saya merasa ingin muntah", "aku merasa mual", "aku muntah terus"],
+      "responses": ["Coba makan makanan ringan dan hindari makanan berminyak. Bila berlanjut, segera ke fasilitas kesehatan."]
+    },
+    {
+      "tag": "tanya_obat_sakit_kepala",
+      "patterns": ["obat sakit kepala apa?", "minum apa kalau pusing?", "obat pusing apa ya?", "sakit kepala minum apa?"],
+      "responses": ["Bisa coba paracetamol atau ibuprofen, tapi selalu baca aturan pakai dan konsultasi ke apoteker jika ragu."]
+    },
+    {
+      "tag": "tanya_makanan_saat_sakit",
+      "patterns": ["saat sakit makan apa?", "makanan yang bagus kalau demam?", "makanan untuk sakit apa?", "makanan buat orang demam"],
+      "responses": ["Cobalah makan sup hangat, bubur, buah-buahan segar, dan minum banyak air putih."]
+    },
+    {
+      "tag": "tidak_enak_badan",
+      "patterns": ["saya tidak enak badan", "aku merasa lemas", "aku tidak fit", "saya merasa sakit", "badan saya tidak enak"],
+      "responses": ["Cobalah istirahat dan konsumsi makanan bergizi. Bila gejala terus berlanjut, sebaiknya periksa ke dokter."]
+    }
+  ]
+}

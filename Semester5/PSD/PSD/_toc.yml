@@ -1,0 +1,18 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: profile
+parts:
+- caption: Bussiness Understanding
+  chapters:
+  - file: iris_bussiness_understanding.md
+- caption: Data Understanding
+  chapters:
+  - file: iris_get_data.ipynb
+  - file: iris_data_description.ipynb
+  - file: iris_data_eksplorasi.ipynb
+- caption: Preprosessing
+  chapters:
+  - file: outliers_cleaning.ipynb
+  - file: penyeimbangan_data_ecoli.ipynb

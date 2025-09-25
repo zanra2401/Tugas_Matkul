@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/main.css")">
+  <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/profile.css")">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+        <div class="profile-container">
+            <div class="profile-img-container">
+                <img src="@routes.Assets.versioned("images/th.jpeg")" alt="">
+            </div>
+            <div class="status">
+                <div>Nama</div>
+                <a href="">Follower</a>
+                <a href="">Following</a>
+            </div>
+        </div>
+
+        <div class="masonry">
+            <button onclick="openModal()" class="upload_foto masonry-item">
+                <img src="@routes.Assets.versioned("images/plus.svg")" alt="">
+            </button>
+
+            <div class="masonry-item"><img src="@routes.Assets.versioned("images/th2.jpeg")" alt=""></div>
+            <div class="masonry-item"><img src="@routes.Assets.versioned("images/ptr.jpg")" alt=""></div>
+            <div class="masonry-item"><img src="@routes.Assets.versioned("images/th2.jpeg")" alt=""></div>
+            <div class="masonry-item"><img src="@routes.Assets.versioned("images/ptr.jpg")" alt=""></div>
+            <div class="masonry-item"><img src="@routes.Assets.versioned("images/ptr.jpg")" alt=""></div>
+            <div class="masonry-item"><img src="@routes.Assets.versioned("images/th2.jpeg")" alt=""></div>
+            <div class="masonry-item"><img src="@routes.Assets.versioned("images/th2.jpeg")" alt=""></div>
+            <!-- Tambah gambar sesuai kebutuhan -->
+            
+        </div>
+
+        <!-- Modal -->
+
+        <div class="modal-overlay" id="modalOverlay" style="display: none;" onclick="closeModal()"></div>
+
+        <div class="upload-modal" id="uploadModal" style="display: none;">
+            <form action="/uploadGambar" method="post" enctype="multipart/form-data">
+                <input type="file" name="image">
+                <button type="submit">Upload</button>
+                <button type="button" onclick="closeModal()">Tutup</button>
+            </form>
+        </div>
+  </main>
+
+  <footer>
+      <a href="/" class="home">
+        <img src="@routes.Assets.versioned("images/home.svg")" alt="">
+      </a>
+
+      <a href="profile" class="profile">
+        <img src="@routes.Assets.versioned("images/user_white.svg")" alt="">
+      </a>
+  </footer>
+
+
+  <script>
+    function openModal() {
+      document.getElementById("uploadModal").style.display = "block";
+      document.getElementById("modalOverlay").style.display = "block";
+    }
+  
+    function closeModal() {
+      document.getElementById("uploadModal").style.display = "none";
+      document.getElementById("modalOverlay").style.display = "none";
+    }
+  </script>
+  
+  
+</body>
+</html>

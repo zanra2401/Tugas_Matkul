@@ -1,0 +1,16 @@
++ List item
+Persiapan Data
+- preprocess
+-- hapus missing value -- done
+-- delete duplicate -- done
+-- encode kategorikal -- done 
+- split data train / test -- done
+
+SMOTE: OVERSAMPLING DATA / Menyeimbangkan data -- done
+
+KLASIFIKASI XGBOOST -- done
+
+EVALUASI MODEL -- done
+
+
+Tunning hyper parameter -- done

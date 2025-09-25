@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0056)http://www.sci.brooklyn.cuny.edu/~goetz/codeblocks/glut/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	
+	<title>GLUT</title>
+	<meta name="GENERATOR" content="OpenOffice.org 2.0  (Win32)">
+	<meta name="CREATED" content="20070207;15023500">
+	<meta name="CHANGED" content="20070207;15530135">
+	<style>
+	<!--
+		@page { size: 8.5in 11in; margin: 0.79in }
+		P { margin-bottom: 0.08in }
+		H1 { margin-bottom: 0.08in }
+		H1.western { font-family: "Arial", sans-serif; font-size: 16pt }
+		H1.cjk { font-family: "MS Mincho"; font-size: 16pt }
+		H1.ctl { font-family: "Tahoma"; font-size: 16pt }
+	-->
+	</style>
+</head>
+<body lang="en-US" dir="LTR">
+<h1 class="western" style="margin-bottom: 0in">Using OpenGL &amp; GLUT in Code::Blocks</h1>
+<p style="margin-bottom: 0in">Download Code::Blocks<br>
+  <a href="http://www.sci.brooklyn.cuny.edu/~goetz/codeblocks/">http://www.sci.brooklyn.cuny.edu/~goetz/codeblocks/</a></p>
+<p style="margin-bottom: 0in">Download the GLUT bin file (first download link) 
+  from:<br>
+  <a href="http://www.xmission.com/~nate/glut.html">http://www.xmission.com/~nate/glut.html</a></p>
+<ul>
+  After you download and open the GLUT bin zip file, you will need to: 
+  <li>Copy glut32.dll to <b>c:\windows\system</b>, </li>
+  <li>Copy glut32.lib to <b>c:\program files\CodeBlocks\MinGW\lib</b>, and </li>
+  <li>Copy glut.h to <b>c:\program files\CodeBlocks\MinGW\include\GL</b>.</li>
+  <li>These are default locations, your paths may be different. But basically, 
+    you place the .lib and .h files in the location of your compiler (in this 
+    case mingw). The .dll file goes in the windows system directory.</li>
+</ul>
+<p>Now you are ready to start Code::Blocks and make a new project.<br style="margin-bottom: 0in">
+</p>
+<p align="left" style="margin-bottom: 0in"> <img src="./Code Blocks-GLUT_files/glut-codeblocks_html_4fe796ff.png" name="graphics1" align="LEFT" width="665" height="499" border="0"><br clear="LEFT">
+  Open up Code::Blocks. Start a new Project by going to <b>File, New, Project.</b><br>
+</p>
+<p align="left" style="margin-bottom: 0in; page-break-before: always"> <img src="./Code Blocks-GLUT_files/glut-codeblocks_html_469333f2.png" name="graphics2" align="LEFT" width="594" height="449" border="0"><br clear="LEFT">
+  Select to make a new <b>GLUT project</b> and press <b>Go</b> to continue.</p>
+<p align="left" style="margin-bottom: 0in"><br>
+</p>
+<p align="left" style="margin-bottom: 0in"><img src="./Code Blocks-GLUT_files/glut-codeblocks_html_20f1ac5e.png" name="graphics3" align="LEFT" width="528" height="424" border="0"><br clear="LEFT">
+  Press <b>Next</b> at this menu</p>
+<p align="left" style="margin-bottom: 0in; page-break-before: always"> <img src="./Code Blocks-GLUT_files/glut-codeblocks_html_2b7aab55.png" name="graphics4" align="LEFT" width="528" height="424" border="0"><br clear="LEFT">
+  Give a <b>project title</b>, and a <b>location</b> where to create the project 
+  and then press <b>Next</b>.</p>
+<p align="left" style="margin-bottom: 0in"><br>
+</p>
+<p align="left" style="margin-bottom: 0in; page-break-before: always"> <img src="./Code Blocks-GLUT_files/glut-codeblocks_html_m622ae4af.png" name="graphics5" align="LEFT" width="528" height="424" border="0"><br clear="LEFT">
+  Let Code::Blocks know where you stored your GL files, then press <b>Next</b>.</p>
+<p align="left" style="margin-bottom: 0in; page-break-before: always"> <img src="./Code Blocks-GLUT_files/glut-codeblocks_html_2f71631c.png" name="graphics6" align="LEFT" width="528" height="424" border="0"><br clear="LEFT">
+  Leave these <b><i>unchanged</i></b>, and press <b>Finish</b>.</p>
+<p align="left" style="margin-bottom: 0in"><br>
+</p>
+<p align="left" style="margin-bottom: 0in"><img src="./Code Blocks-GLUT_files/glut-codeblocks_html_673b0c7.png" name="graphics7" align="LEFT" width="665" height="499" border="0"><br clear="LEFT">
+  In the manager window (viewable by pressing <b>Shift-F2</b>), open up the sample source 
+  file by double clicking on it. To make your program work, you will need to add 
+  at line 14:<br>
+  <b><font face="Courier New, monospace">#include &lt;windows.h&gt;</font></b></p>
+<p align="left" style="margin-bottom: 0in"><img src="./Code Blocks-GLUT_files/glut-codeblocks_html_39881b23.png" name="graphics8" align="LEFT" width="665" height="499" border="0"><br clear="LEFT">
+  You will need to make a small change to the project's <b>Build Options</b>. 
+  Go to <b>Project, Build Options</b>.</p>
+<p align="left" style="margin-bottom: 0in"><img src="./Code Blocks-GLUT_files/glut-codeblocks_html_m4e2e0fc1.png" name="graphics9" align="LEFT" width="665" height="518" border="0"><br clear="LEFT">
+  Select the <b>Linker</b> tab and press <b>Add</b> in the Link Libraries area.</p>
+<p align="left" style="margin-bottom: 0in"><img src="./Code Blocks-GLUT_files/glut-codeblocks_html_2d63b533.png" name="graphics10" align="LEFT" width="350" height="106" border="0"><br clear="LEFT">
+  Press on the <b>...</b> button to select a library to add. You need to add the 
+  <b>glut32.lib</b> library. Locate this from the directory you placed it in before.<br>
+</p>
+<p align="left" style="margin-bottom: 0in"><img src="./Code Blocks-GLUT_files/glut-codeblocks_html_1183c864.png" name="graphics11" align="LEFT" width="212" height="119" border="0"><br clear="LEFT">
+  After you add the library, it will ask if you want to keep the path relative. 
+  Select <b>No</b>.<br>
+</p>
+<p align="left" style="margin-bottom: 0in"><img src="./Code Blocks-GLUT_files/glut-codeblocks_html_m473ed28d.png" name="graphics12" align="LEFT" width="350" height="106" border="0"><br clear="LEFT">
+  Press <b>OK</b> to select the library.<br>
+</p>
+<p align="left" style="margin-bottom: 0in"><img src="./Code Blocks-GLUT_files/glut-codeblocks_html_10a7db1f.png" name="graphics13" align="LEFT" width="665" height="518" border="0"><br clear="LEFT">
+  Press <b>OK</b> to close the Project's Build Options.</p>
+<p align="left" style="margin-bottom: 0in"><font size="+2">Press <b>F9</b> to do 
+  a Build &amp; Run of your project.</font></p>
+<p align="left" style="margin-bottom: 0in">After a while you'll get some warnings. 
+  Ignore the warnings. If you get errors, check the steps above to make sure you 
+  added in the new line at 14, and setup project to use the glut32.lib library 
+  file to use.</p>
+<p align="left" style="margin-bottom: 0in"><b><i>Hopefully</i></b> you'll get a 
+  program displaying the following:</p>
+<p align="left" style="margin-bottom: 0in"><img src="./Code Blocks-GLUT_files/glut-codeblocks_html_72fe71cf.png" name="graphics14" align="LEFT" width="648" height="507" border="0"><br clear="LEFT">
+  If you see the proceeding window, congratulations, GLUT works for you!</p>
+<p><a href="http://www.sci.brooklyn.cuny.edu/~goetz/codeblocks/">Return</a></p>
+
+
+</body></html>

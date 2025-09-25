@@ -1,0 +1,55 @@
+
+  .detail {
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .likes,
+  .comments {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .likes img,
+  .comments img {
+    cursor: pointer;
+    transition: transform 0.2s ease, filter 0.2s ease;
+  }
+  
+  .likes img:hover,
+  .comments img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+  }
+  
+  .komentar {
+    height: 30px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    border: 1px gray solid;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  .komentar:hover {
+    cursor: pointer;
+  }
+
+  .postingan {
+    width: 100%;
+    margin: 20px auto;
+    background-color: #fff;
+  }
+  
+  .img-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }

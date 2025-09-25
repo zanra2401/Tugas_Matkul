@@ -1,0 +1,8 @@
+.home {
+    background-color: rgb(46, 28, 105);
+}
+
+.profile:hover {
+    background: rgb(225, 225, 225);
+    cursor: pointer;
+}

@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+}
+
+.home, .profile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.masonry {
+    column-count: 2;
+    column-gap: 5px; 
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.masonry-item {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    transition: ease-in-out 0.3s;
+}
+
+.masonry-item > img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.masonry-item:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+
+
+.nav-active {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    position: relative;
+}
+
+
