@@ -16,3 +16,10 @@ parts:
   chapters:
   - file: outliers_cleaning.ipynb
   - file: penyeimbangan_data_ecoli.ipynb
+- caption: Pemodelan
+  chapters:
+  - file: pemodelan/klasifikasi.ipynb
+    title: KLASIFIKASI
+    sections: 
+    - file: pemodelan/nb_imbalance.ipynb
+      title: IMBALANCE DATA
