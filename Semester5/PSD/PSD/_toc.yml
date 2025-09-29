@@ -19,7 +19,13 @@ parts:
 - caption: Pemodelan
   chapters:
   - file: pemodelan/klasifikasi.ipynb
-    title: KLASIFIKASI
+    title: MODEL KLASIFIKASI
     sections: 
     - file: pemodelan/nb_imbalance.ipynb
       title: IMBALANCE DATA
+    - file: pemodelan/nb_smote.ipynb
+      title: SMOTE DATA
+    - file: pemodelan/nb_adasyn.ipynb
+      title: ADASYN DATA
+    - file: pemodelan/perbandingan_keseluruhan.ipynb
+      title: Perbandingan Model dan Data
