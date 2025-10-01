@@ -1,3 +1,14 @@
+\section{Metode Numerik}
+Bagian ini bertujuan untuk menyelesaikan Persamaan Diferensial Biasa (PDB) orde dua
+yang memodelkan Gerak Harmonik Sederhana (GHS) pada ayunan. PDB orde dua ini harus dipecah menjadi \textbf{sistem dua PDB orde satu} untuk diterapkan pada metode numerik:
+\vspace{1em}
+
+\begin{enumerate}
+    \item Posisi : $\frac{dx}{dt} = v = (f_1)$\cite{getaranmekanik2020}
+    \item Kecepatan : $\frac{dv}{dt} = -w^2x = (f_2)$\cite{getaranmekanik2020} 
+\end{enumerate}
+
+
 \subsection{Euler}
 Euler adalah teknik numerik untuk menyelesaikan masalah persamaan diferensial biasa,
 metode numerik ini memungkinkan kita untuk meperkirakan solusi untuk persamaan diferensial
@@ -11,11 +22,17 @@ menggunakan proses iterative \cite{euler_method}
 Metode Euler menggunakan rumus berikut \cite{euler_method_free}:  
 
 \begin{center}
-    $y(x + h) = y(x) + h \times f(x, y)$
+    $y_{i + 1} = y_i + h \times f(x, y)$
 \end{center}
+Diterapkan di sistem GHS dengan $x = \theta$ dan $y = v$:  
+$$x_{i + 1} = x_i + h \times v$$
+$$v_{i + 1} = v_i + h \times (-w^2x)$$
 
 \subsection{Heun}
-Heun adalah
+Heun method adalah cara yang simple untuk memperkirakan solusi untuk masalah diferensial biasa,
+method ini biasa dipanggil dengan predictor corrector method, karena method ini melibatkan dua Langkah
+dengan memperkirakan kondisi selanjutnya dan mengkoreksi perkiraan tersebut \cite{heun_method}.
+
 
 \subsection{Runge Kutta Orde 4}
 RK4 adalah

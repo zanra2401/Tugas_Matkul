@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.30)  30 SEP 2025 23:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.30)  1 OCT 2025 19:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -247,13 +247,15 @@ Package hyperref Info: Link coloring OFF on input line 9.
 [1
 
 {C:/Users/grubg/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (metode_numerik.tex
-Overfull \hbox (11.37495pt too wide) in paragraph at lines 2--6
+Overfull \hbox (11.37495pt too wide) in paragraph at lines 13--17
 \OT1/cmr/m/n/14.4 kita un-tuk meperki-rakan so-lusi un-tuk per-samaan difer-en-sial meng-
  []
 
-) (main.bbl
 
-[2]
+
+[2]) (main.bbl
+
+[3]
 Underfull \hbox (badness 5893) in paragraph at lines 4--9
 []\OT1/cmr/m/n/14.4 freecodecamp.  Eu-ler's method ex-plained with ex-
  []
@@ -275,7 +277,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--15
 
 )
 
-[3
+[4
 
 ] (main.aux)
  ***********
@@ -286,17 +288,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3DD02DECEB454015E9E3AEAE2B2BC4CE;671.
  ) 
 Here is how much of TeX's memory you used:
- 8465 strings out of 468130
- 127849 string characters out of 5447949
- 542107 words of memory out of 5000000
- 37008 multiletter control sequences out of 15000+600000
+ 8472 strings out of 468130
+ 127958 string characters out of 5447949
+ 542140 words of memory out of 5000000
+ 37011 multiletter control sequences out of 15000+600000
  630863 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,292b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\grubg\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><D:/Mitek/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Mitek/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Mitek/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Mitek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Mitek/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Mitek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Mitek/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/Mitek/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (3 pages, 105860 bytes).
+ 75i,5n,79p,294b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\grubg\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><D:/Mitek/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Mitek/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Mitek/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Mitek/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Mitek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Mitek/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Mitek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Mitek/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/Mitek/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (4 pages, 119367 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
+ 124 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

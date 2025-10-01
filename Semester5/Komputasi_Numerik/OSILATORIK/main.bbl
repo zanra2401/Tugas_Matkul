@@ -19,4 +19,9 @@ Toto Rusianto and Anak Agung~Putu Susastriawan.
 \newblock Institut Sains \& Teknologi AKPRIND Yogyakarta, Yogyakarta, 2020.
 \newblock Buku Ajar Teknik Mesin.
 
+\bibitem{heun_method}
+testbook.
+\newblock formula, derivation applications with solved examples.
+\newblock \url{https://testbook.com/maths/heuns-method,}.
+
 \end{thebibliography}
