@@ -1,0 +1,70 @@
+\documentclass[12pt,a4paper,onecolumn]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{url}
+\usepackage{hyperref}
+
+
+\begin{document}
+
+\noindent
+\large \textbf{Kasus Gerak Harmonik Sederhana pada Ayunan} \\
+\noindent
+\text{Zanuar 23-087, Nabillah 23-092}
+
+\vspace{2em}
+
+\noindent
+\section{Latar Belakang} 
+Gerak harmonik sederhana (GHS) merupakan dasar penting dalam memahami sistem osilasi \cite{getaranmekanik2020}. 
+Selain itu, metode numerik seperti Euler, Heun, dan RK4 digunakan untuk membandingkan akurasi 
+dalam menyelesaikan persamaan diferensial yang mendeskripsikan ayunan sederhana. 
+
+\vspace{1.2em}
+
+\section{Solusi Eksak}
+Gerak ayunan sederhana dengan sudut kecil dimodelkan oleh persamaan diferensial \cite{getaranmekanik2020}:
+$$\frac{d^2x}{dt^2} + \omega^2 x = 0,$$
+dengan 
+
+$$\omega = \sqrt{\frac{g}{L}},$$
+di mana $g$ adalah percepatan gravitasi dan $L$ panjang tali ayunan.
+
+\vspace{1em}
+\noindent
+Dengan kondisi awal $x(0) = A$ dan $\dot{x}(0) = 0$, solusi menjadi:
+\begin{equation}
+x(t) = A \cos(\omega t).
+\end{equation}
+
+\noindent
+Kecepatan diperoleh \cite{euler_method} dengan turunan pertama dari posisi didapatkan:
+\begin{equation}
+v(t) = \frac{dx}{dt} = -A \omega \sin(\omega t).
+\end{equation}
+
+\newpage
+\noindent
+dengan:
+
+\begin{itemize}
+    \item $\theta (t)$ = posisi ayunan pada waktu $t$
+    \item $\omega (t)$ = posisi ayunan pada waktu $t$
+    \item $g = 9.81$ $meter/detik$ = posisi ayunan pada waktu $t$
+    \item $L$ = $2$ $meter$ (panjang tali)
+    \item $\theta_0 = 0.14$ $rad$ = (Posisi Awal)
+    \item $\omega_0 = 0.0$ $rad/detik$ = (Kecepatan Awal)
+    \item $h = 0.1$ $detik$ (Langkah)
+\end{itemize}
+
+\vspace{2em}
+
+\noindent
+\section{Metode Numerik}
+\input{metode_numerik}
+
+\bibliographystyle{plain}
+\bibliography{daftar}
+
+\end{document}
