@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1759286264.2151 "main.aux" "main.bbl" "main" 1759287147.62491 0
-  "./daftar.bib" 1759286043 740 b947d13d98f6e9aec00e96e1249fece1 ""
+["bibtex main"] 1759323721.1795 "main.aux" "main.bbl" "main" 1759323724.93932 0
+  "./daftar.bib" 1759323603 1085 566bb24491b10b1c9555e313ce978f93 ""
   "C:/Program Files/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1759287147 1125 54e045a174f1a7af73f8879c82b76bec "pdflatex"
+  "main.aux" 1759323724 1348 f3d47362d0152d0c287844f2b64efa65 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1759287146.81494 "c:/Users/acer/Documents/zanra/Tugas_Matkul/Semester5/Komputasi_Numerik/OSILATORIK/main.tex" "main.pdf" "main" 1759287147.62529 0
+["pdflatex"] 1759323724.06131 "c:/Users/acer/Documents/zanra/Tugas_Matkul/Semester5/Komputasi_Numerik/OSILATORIK/main.tex" "main.pdf" "main" 1759323724.93968 0
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcrm1440.tfm" 993062510 1460 05250f74aea2bdcfe9d6766811b8b7b2 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -20,6 +20,7 @@
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmtt12.tfm" 1136765053 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
+  "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
@@ -65,12 +66,12 @@
   "C:/Users/acer/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1756012404 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/acer/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1440.pk" 1759286262 16968 d48482b32578b68b22a891ae185778d0 ""
   "C:/Users/acer/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1756012496 13247225 4c8d40383e2b411f6e067983751bc414 ""
-  "c:/Users/acer/Documents/zanra/Tugas_Matkul/Semester5/Komputasi_Numerik/OSILATORIK/main.tex" 1759287146 1879 a454c91797a6b23db448137af0006b9e ""
-  "main.aux" 1759287147 1125 54e045a174f1a7af73f8879c82b76bec "pdflatex"
-  "main.bbl" 1759286264 675 410aabf949ab93aebf1b920ffb5f34d2 "bibtex main"
-  "main.out" 1759287147 671 3dd02deceb454015e9e3aeae2b2bc4ce "pdflatex"
-  "main.tex" 1759287146 1879 a454c91797a6b23db448137af0006b9e ""
-  "metode_numerik.tex" 1759286043 538 2ebd7807d6b577e0cbc2b89c02cfb082 ""
+  "c:/Users/acer/Documents/zanra/Tugas_Matkul/Semester5/Komputasi_Numerik/OSILATORIK/main.tex" 1759322865 1860 bf53bbe254f18bb2781459a704bffa39 ""
+  "main.aux" 1759323724 1348 f3d47362d0152d0c287844f2b64efa65 "pdflatex"
+  "main.bbl" 1759323721 972 cd705dfc7c3d4e4243024939eef83956 "bibtex main"
+  "main.out" 1759323724 671 3dd02deceb454015e9e3aeae2b2bc4ce "pdflatex"
+  "main.tex" 1759322865 1860 bf53bbe254f18bb2781459a704bffa39 ""
+  "metode_numerik.tex" 1759323723 2935 898435853d314de5bc9f221b009d1f56 ""
   (generated)
   "main.aux"
   "main.log"

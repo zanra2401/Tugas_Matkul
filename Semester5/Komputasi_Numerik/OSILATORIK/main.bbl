@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{runge_kutta_method}
+byjus.
+\newblock Runge kutta method.
+\newblock \url{https://byjus.com/maths/runge-kutta-rk4-method/}.
+
 \bibitem{euler_method_free}
 freecodecamp.
 \newblock Euler's method explained with examples.
@@ -18,5 +23,10 @@ Toto Rusianto and Anak Agung~Putu Susastriawan.
 \newblock {\em Getaran Mekanik (Revisi)}.
 \newblock Institut Sains \& Teknologi AKPRIND Yogyakarta, Yogyakarta, 2020.
 \newblock Buku Ajar Teknik Mesin.
+
+\bibitem{heun_method}
+testbook.
+\newblock formula, derivation applications with solved examples.
+\newblock \url{https://testbook.com/maths/heuns-method}.
 
 \end{thebibliography}

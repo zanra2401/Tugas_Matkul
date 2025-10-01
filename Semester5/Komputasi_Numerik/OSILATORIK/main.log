@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.24)  1 OCT 2025 09:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.24)  1 OCT 2025 20:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -247,35 +247,44 @@ Package hyperref Info: Link coloring OFF on input line 9.
 [1
 
 {C:/Users/acer/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (metode_numerik.tex
-Overfull \hbox (11.37495pt too wide) in paragraph at lines 2--6
+Overfull \hbox (11.37495pt too wide) in paragraph at lines 13--17
 \OT1/cmr/m/n/14.4 kita un-tuk meperki-rakan so-lusi un-tuk per-samaan difer-en-sial meng-
  []
 
-) (main.bbl
+
 
 [2]
-Underfull \hbox (badness 5893) in paragraph at lines 4--9
+Overfull \hbox (1.27008pt too wide) in paragraph at lines 54--57
+\OT1/cmr/m/n/14.4 ini mem-berikan pen-dekatan yang lebih aku-rat diband-ingkan den-
+ []
+
+
+
+[3]) (main.bbl
+
+[4]
+Underfull \hbox (badness 5893) in paragraph at lines 9--14
 []\OT1/cmr/m/n/14.4 freecodecamp.  Eu-ler's method ex-plained with ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--9
+Underfull \hbox (badness 10000) in paragraph at lines 9--14
 \OT1/cmr/m/n/14.4 am-ples.  []$\OT1/cmtt/m/n/14.4 https : / / www . freecodecamp . org / news /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--15
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
 []\OT1/cmr/m/n/14.4 Alex Mitchell.  Eu-ler`s method ex-plained
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--15
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
 \OT1/cmr/m/n/14.4 with ex-am-ples.  []$\OT1/cmtt/m/n/14.4 https : / / expertbeacon . com /
  []
 
 )
 
-[3
+[5
 
 ] (main.aux)
  ***********
@@ -286,17 +295,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3DD02DECEB454015E9E3AEAE2B2BC4CE;671.
  ) 
 Here is how much of TeX's memory you used:
- 8465 strings out of 468134
- 129557 string characters out of 5440810
- 542060 words of memory out of 5000000
- 37004 multiletter control sequences out of 15000+600000
+ 8475 strings out of 468134
+ 129715 string characters out of 5440810
+ 542133 words of memory out of 5000000
+ 37008 multiletter control sequences out of 15000+600000
  630863 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,312b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\acer\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (3 pages, 105846 bytes).
+ 75i,5n,79p,314b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\acer\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (5 pages, 124714 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
+ 134 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

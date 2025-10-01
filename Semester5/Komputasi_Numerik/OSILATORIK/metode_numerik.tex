@@ -1,3 +1,14 @@
+\section{Metode Numerik}
+Bagian ini bertujuan untuk menyelesaikan Persamaan Diferensial Biasa (PDB) orde dua
+yang memodelkan Gerak Harmonik Sederhana (GHS) pada ayunan. PDB orde dua ini harus dipecah menjadi \textbf{sistem dua PDB orde satu} untuk diterapkan pada metode numerik:
+\vspace{1em}
+
+\begin{enumerate}
+    \item Posisi : $\frac{dx}{dt} = v = (f_1)$\cite{getaranmekanik2020}
+    \item Kecepatan : $\frac{dv}{dt} = -w^2x = (f_2)$\cite{getaranmekanik2020} 
+\end{enumerate}
+
+
 \subsection{Euler}
 Euler adalah teknik numerik untuk menyelesaikan masalah persamaan diferensial biasa,
 metode numerik ini memungkinkan kita untuk meperkirakan solusi untuk persamaan diferensial
@@ -11,11 +22,58 @@ menggunakan proses iterative \cite{euler_method}
 Metode Euler menggunakan rumus berikut \cite{euler_method_free}:  
 
 \begin{center}
-    $y(x + h) = y(x) + h \times f(x, y)$
+    $y_{i + 1} = y_i + h \times f(x, y)$
 \end{center}
 
+\noindent
+Diterapkan di sistem GHS dengan $x = \theta$ dan $y = v$:  
+$$x_{i + 1} = x_i + h \times v$$
+$$v_{i + 1} = v_i + h \times (-w^2x)$$
+
 \subsection{Heun}
-Heun adalah
+Heun method adalah cara yang simple untuk memperkirakan solusi untuk masalah diferensial biasa,
+method ini biasa dipanggil dengan predictor corrector method, karena method ini melibatkan dua Langkah
+dengan memperkirakan kondisi selanjutnya dan mengkoreksi perkiraan tersebut \cite{heun_method}.
+\vspace{0.3em}
+
+\noindent
+\textbf{Metodologi Heun}
+
+\noindent
+Metode Heun menggunakan rumus berikut \cite{heun_method}:
+\begin{center}
+    $y_{i + 1} = y_i + \frac{h}{2} \times (f(x_i, y_i) + f(x_{i + 1}, y_{i + 1}))$
+\end{center}
+
+\noindent
+Diterapkan di sistem GHS dengan $x = \theta$ dan $y = v$:  
+$$x_{i + 1} = x_i + \frac{h}{2} \times (v_i + v_{i + 1})$$
+$$v_{i + 1} = v_i + \frac{h}{2} \times (-w^2x_i - w^2x_{i + 1})$$
 
 \subsection{Runge Kutta Orde 4}
-RK4 adalah
+Runge Kutta Orde 4 (RK4) adalah metode numerik yang populer untuk menyelesaikan persamaan diferensial biasa.
+Metode ini memberikan pendekatan yang lebih akurat dibandingkan dengan metode Euler dan Heun
+dengan menggunakan empat perkiraan kemiringan pada setiap langkah waktu \cite{runge_kutta_method}.  
+
+\vspace{0.3em}
+\noindent       
+\textbf{Metodologi RK4}
+\noindent
+Metode RK4 menggunakan rumus berikut \cite{runge_kutta_method}:
+\begin{center}
+    $y_{i + 1} = y_i + \frac{h}{6} \times (k_1 + 2k_2 + 2k_3 + k_4)$
+\end{center}
+
+\noindent
+dengan: 
+\begin{itemize}
+    \item $k_1 = f(x_i, y_i)$
+    \item $k_2 = f(x_i + \frac{h}{2}, y_i + \frac{h}{2}k_1)$
+    \item $k_3 = f(x_i + \frac{h}{2}, y_i + \frac{h}{2}k_2)$
+    \item $k_4 = f(x_i + h, y_i + hk_3)$
+    \item $h$ = langkah waktu
+\end{itemize}       
+\noindent
+Diterapkan di sistem GHS dengan $x = \theta$ dan $y = v$:  
+$$x_{i + 1} = x_i + \frac{h}{6} \times (k_1 + 2k_2 + 2k_3 + k_4)$$
+$$v_{i + 1} = v_i + \frac{h}{6} \times (m_1 + 2m_2 + 2m_3 + m_4)$$
